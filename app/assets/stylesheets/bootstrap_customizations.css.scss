@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg:                                       #990012;
+$navbar-height:                                 45px;
+$navbar-default-brand-color:              		#990012;
+$brand-primary:                                 #990012;
+$jumbotron-bg:                                  white;
+$navbar-default-brand-color: 					black;
+$navbar-default-brand-font-size:	200pt;
+
+@import "bootstrap";
+
+.navbar-brand {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.navbar-brand big {
+	font-size: 40px;
+}
