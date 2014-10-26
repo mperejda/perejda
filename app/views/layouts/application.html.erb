@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Perejda</title>
+  <title>Matt Perejda</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<h1> Welcome to Matt's New Portfolio </h1>
-
-<p> Time to make this shit look good </p>
+<%= yield %>
 
 </body>
 </html>
